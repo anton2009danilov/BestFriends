@@ -54,7 +54,6 @@ h2 {
 .header {
     background-image: url(img/texture1.png);
     height: 88px;
-    text-align: center;
     text-align: right;
 }
 
@@ -264,7 +263,7 @@ table td:nth-of-type(2) {
     float: left;
 }
 
-input[type=e-mail]:focus {
+input[type="email"]:focus {
     color: cadetblue;
     background-color: aqua;
 }
@@ -274,19 +273,19 @@ input::placeholder {
     background-color: white;
 }
 
-input[type=text] {
+input[type="text"] {
     width: 250px;
     height: 14px;
     text-align: center;
 }
 
-input[type=text],
-input[type=e-mail],
+input[type="text"],
+input[type="email"],
 textarea {
     text-transform: capitalize;
 }
 
-input[type=text],
+input[type="text"],
 textarea {
     font-size: 12px;
     font-weight: bolder;
